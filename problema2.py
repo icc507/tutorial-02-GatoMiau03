@@ -8,6 +8,7 @@
 #La salida debe ser
 #         (77, 'jiji', 'hola', 90, 20)
 t = input()
-t1 = tuple(t.split())
-resultado = t1 [::-1]
+t1 = t.split()
+t1_invertida = t1 [::-1]
+resultado = tuple(t1_invertida)
 print(resultado)
